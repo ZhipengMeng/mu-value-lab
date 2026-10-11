@@ -1,0 +1,822 @@
+{
+  "schema": 2,
+  "company": "SKHY",
+  "name": "SK hynix",
+  "version": "2.0",
+  "asOf": "2026-10-09",
+  "checkedOn": "2026-10-10",
+  "balanceDate": "2026-06-30",
+  "unit": "KRW trillions",
+  "unitShort": "₩T",
+  "epsScale": 1000000,
+  "ordinaryPerQuote": 0.1,
+  "price": 169.03,
+  "epsMinority": 0.2,
+  "headline": "DRAM and HBM, NAND and enterprise SSDs",
+  "overview": "SK hynix is modeled from consolidated DRAM, NAND and other revenue. HBM remains inside DRAM because the reviewed statements do not disclose standalone HBM revenue or profit. M15X, Yongin and packaging investment support shipment scenarios; investment-portfolio gains are valued separately from memory operations. The quoted security is the Nasdaq ADS.",
+  "assumptions": {
+    "discount": 12,
+    "terminalGrowth": 2,
+    "terminalMargin": 50,
+    "terminalRoi": 25,
+    "tax": 25,
+    "netInterest": 3,
+    "sbc": 0,
+    "dso": 55,
+    "dio": 120,
+    "dpo": 21,
+    "accruedPct": 0,
+    "operatingReserve": 10,
+    "interimCredit": 100,
+    "investmentHaircut": 20,
+    "ipoFeePct": 1,
+    "buybackFraction": 100,
+    "buybackPrice": 1662000,
+    "fx": 1340.88,
+    "capexMultiplier": 1,
+    "sharesMn": 728.8655,
+    "gmShock": 0
+  },
+  "facts": {
+    "cash": 87.957923,
+    "debt": 21.113139,
+    "taxLiability": 31.958025,
+    "customerDeposits": 0,
+    "openingNwc": 62.763862,
+    "ipoGross": 39.89053479,
+    "investments": 92.411327,
+    "investmentClaims": 8.149251,
+    "buybackBudget": 40,
+    "halfRevenue": 131.895033,
+    "halfEbit": 98.152891,
+    "halfCashCapex": 18.994016,
+    "halfCfo": 91.742501,
+    "halfDividendCash": 13.983648,
+    "halfValuationGains": 63.178974,
+    "halfDA": 7.759289,
+    "halfSbc": 0.074639,
+    "cy2026ConsensusRevenue": 344.26,
+    "cy2026ConsensusEbit": 266.14,
+    "quarterRevenue": 79.318746,
+    "quarterGross": 65.991356,
+    "quarterEbit": 60.542608,
+    "quarterNet": 93.922593,
+    "preIpoShares": 711.0755,
+    "newShares": 17.79,
+    "reportedBuybackSharesApprox": 24.07
+  },
+  "consensus": [
+    {
+      "year": 2026,
+      "period": "CY2026 (Dec 2026)",
+      "revenue": 344.26,
+      "eps": 355218.93,
+      "operatingIncome": 266.14,
+      "netIncome": 257.23,
+      "fcf": 180.66,
+      "epsBasis": "Provider-adjusted ordinary-share EPS in KRW",
+      "updated": "2026-10-06"
+    },
+    {
+      "year": 2027,
+      "period": "CY2027 (Dec 2027)",
+      "revenue": 531.44,
+      "eps": 470320,
+      "epsBasis": "Provider-adjusted ordinary-share EPS; rounded 470.32K",
+      "updated": "2026-10-06"
+    }
+  ],
+  "headlinePE": 4.17,
+  "tablePE": 0.64,
+  "segments": [
+    {
+      "name": "DRAM including HBM",
+      "short": "DRAM",
+      "revenue": 56.982743,
+      "gm": null,
+      "status": "reported Q2 CY2026 revenue; product margin undisclosed",
+      "driver": "HBM4 ramp, conventional/server DRAM, 1c node transitions and M15X capacity. Blended bit growth and price/mix."
+    },
+    {
+      "name": "NAND / enterprise SSD",
+      "short": "NAND",
+      "revenue": 21.959898,
+      "gm": null,
+      "status": "reported Q2 CY2026 revenue; product margin undisclosed",
+      "driver": "Solidigm and enterprise SSD demand, 321-layer mix, NAND bit growth and pricing."
+    },
+    {
+      "name": "Other",
+      "short": "Other",
+      "revenue": 0.376105,
+      "gm": null,
+      "status": "reported Q2 CY2026 revenue; product margin undisclosed",
+      "driver": "Other consolidated semiconductor revenue; small residual business."
+    }
+  ],
+  "sources": [
+    {
+      "id": "filing",
+      "title": "SK hynix H1 2026 Form 6-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526354777/d147827d6k.htm",
+      "kind": "Company filing",
+      "date": "2026-08-18",
+      "locator": "Consolidated statements; Notes 21, 22, 26; subsequent events. Saved outer-table indices 377–382, 605, 617, 625, 697, 732–734."
+    },
+    {
+      "id": "release",
+      "title": "SK hynix Q2 2026 results",
+      "url": "https://news.skhynix.com/en/q2-2026-business-results/",
+      "kind": "Company results and outlook",
+      "date": "2026-07-29",
+      "locator": "Operating results; HBM4, M15X, Yongin and packaging outlook"
+    },
+    {
+      "id": "buyback",
+      "title": "SK hynix repurchase and cancellation plan",
+      "url": "https://news.skhynix.com/en/share-buyback-and-retirement/",
+      "kind": "Company corporate-action announcement",
+      "date": "2026-08-19",
+      "locator": "₩40T plan; approximate 24.07M shares at ₩1,662,000 reference price"
+    },
+    {
+      "id": "consensus",
+      "title": "SKHY annual consensus and close",
+      "url": "https://stockanalysis.com/stocks/skhy/forecast/",
+      "kind": "Third-party estimates",
+      "date": "2026-10-06",
+      "locator": "Public CY2026 table and CY2027 summary; KRW financial units; Oct 9 close"
+    },
+    {
+      "id": "headline",
+      "title": "SKHY displayed valuation ratios",
+      "url": "https://stockanalysis.com/stocks/skhy/statistics/",
+      "kind": "Third-party ratio; unresolved definition",
+      "date": "2026-10-10",
+      "locator": "Headline forward P/E 4.17; not used as an earnings input"
+    },
+    {
+      "id": "fx",
+      "title": "Historical USD/KRW",
+      "url": "https://uk.investing.com/currencies/usd-krw-historical-data",
+      "kind": "Market observation",
+      "date": "2026-10-09",
+      "locator": "09/10/2026 daily historical row: 1,340.88 KRW/USD; indicative, different fixing from headline spot"
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Q2 revenue / operating profit",
+      "value": "₩79.319T / ₩60.543T",
+      "status": "Reported",
+      "source": "filing",
+      "meaning": "Consolidated K-IFRS. Q2 gross profit ₩65.991T."
+    },
+    {
+      "label": "Q2 DRAM / NAND / other",
+      "value": "₩56.983T / ₩21.960T / ₩0.376T",
+      "status": "Reported",
+      "source": "filing",
+      "meaning": "Consolidated Note 21; HBM is part of DRAM. These are product revenues, not separately reported segment profits."
+    },
+    {
+      "label": "Q2 net profit",
+      "value": "₩93.923T",
+      "status": "Reported",
+      "source": "filing",
+      "meaning": "Net profit exceeds revenue because non-operating financial income is material. It is not annualized in the operating model."
+    },
+    {
+      "label": "H1 investment items",
+      "value": "₩63.179T valuation gain; ₩13.984T cash dividends",
+      "status": "Reported",
+      "source": "filing",
+      "meaning": "The two figures are different accounting measures. Both are excluded from recurring memory cash generation; investments enter the asset bridge instead."
+    },
+    {
+      "label": "H1 cash investment",
+      "value": "₩18.994T PPE plus intangibles",
+      "status": "Reported",
+      "source": "filing",
+      "meaning": "CY2026 total ₩48T and subsequent spending are assumptions, not verified annual capex guidance."
+    },
+    {
+      "label": "July issuance",
+      "value": "17.79M ordinary shares; ₩39.891T gross",
+      "status": "Reported subsequent event",
+      "source": "filing",
+      "meaning": "One ordinary share corresponds to 10 ADSs. The 1% fee deduction is assumed."
+    },
+    {
+      "label": "Buyback",
+      "value": "₩40T authorized; approximately 24.07M shares",
+      "status": "Announced plan",
+      "source": "buyback",
+      "meaning": "Model assumes full plan execution at ₩1.662M per ordinary share. Actual completion and execution price at Oct 9 are not verified."
+    },
+    {
+      "label": "Capacity and mix",
+      "value": "HBM4 ramp; M15X; Yongin 2027",
+      "status": "Company outlook",
+      "source": "release",
+      "meaning": "Manufacturing milestones inform shipment/capex scenarios. They are not quantified yield or wafer-capacity forecasts."
+    }
+  ],
+  "assumptionsNotes": [
+    "CY2026 consensus revenue and operating income are bridged to reported H1 results, producing a distinct H2 forecast. CY2027 is the first full forecast year. No annualized Q2 net profit is used.",
+    "The central CY2027 revenue target is published consensus. At the chosen DRAM and NAND bit growth, the common price/mix factor is solved to reach that target. Blended pricing includes HBM mix and exchange-rate effects; price and volume are not independent company guidance.",
+    "CY2026 product revenue weights extend reported Q2 mix. Product manufacturing costs are undisclosed: relative cash-cost weights of 0.90 for DRAM, 1.20 for NAND and 3.00 for other are assumptions, normalized to consolidated consensus operating profit after assumed ₩22T operating expense. No product margin is presented as a fact.",
+    "H2 D&A is assumed ₩9T. Total CY2026 D&A is reported H1 ₩7.759289T plus this assumption, with 80% assigned to manufacturing. Future depreciation and capex are explicit assumptions. The capex multiplier changes both the investment and associated D&A schedules; this is not a detailed asset-cohort or tax depreciation model.",
+    "A 25% operating tax rate, ₩3T annual recurring net interest, and ₩0.2T minority earnings are assumptions. K-IFRS operating costs already include SBC, so there is no second SBC charge or addback. Future stock issuance is not modeled.",
+    "The model uses June 30 liquid assets plus July gross issuance, assumed fees, and the pro forma announced buyback. Full execution is a valuation assumption, not a claim that shares have already been cancelled. Buyback cash and ordinary shares move together. A 20% haircut is applied to reported long-term investments/instruments; all deferred-tax liabilities and book minority interests are deducted as conservative asset-bridge proxies. Equity-method investments are omitted.",
+    "Investment gains and portfolio dividends are excluded from recurring FCFF to avoid counting both their income and asset value. The book-value minority deduction is only a proxy for the fair value of non-controlling interests; EPS separately subtracts assumed attributable minority earnings.",
+    "Opening working capital includes trade receivables, inventory and trade payables only. Other operating payables are excluded because their future cash classification is uncertain. Historical current tax is reserved separately; future tax is charged on future operating profit.",
+    "Estimated H2 owner cash is split at Oct 9: elapsed cash enters the equity bridge and only the remaining cash is discounted. Uniform accrual is an assumption. Setting interim credit to zero removes the elapsed cash estimate without altering the remaining forecast.",
+    "All enterprise cash flows and the discount rate are nominal KRW. Equity value per ordinary share is multiplied by 0.1 and divided by 1,340.88 to obtain USD per ADS. The spot conversion, ADS fees and any Korean/U.S. trading premium are not forecasts of future FX or market convergence.",
+    "After eight explicit years, growth, operating margin and investment fade over four years. Perpetual growth, return on incremental capital and the 30/50/65% scenario terminal margins are assumptions, with no probabilities assigned.",
+    "The start of the four-year fade uses the last explicit revenue growth rate, limited to the interval from perpetual growth to 12%. A recovery to at least perpetual growth is therefore assumed even after a contracting final explicit year. Net reinvestment fades from the last explicit capital-spending/depreciation/working-capital requirement to NOPAT × growth / terminal return on capital.",
+    "Future capital-spending allowances cover replacement and expansion, including an allowance for cash-equivalent leased assets. The exact future split among wafer fabs, packaging, equipment, incentives and lease financing is not verified. Annual schedules are stress assumptions, not asset-level engineering estimates."
+  ],
+  "limitations": [
+    "Current buyback completion, effective fully diluted shares and post-June balance-sheet changes are not verified.",
+    "Standalone HBM sales, yield and profit are not disclosed in reviewed materials; DRAM remains blended.",
+    "The headline 4.17× and table 0.64× P/E do not reconcile to the quoted ADS price, published annual EPS and observed FX.",
+    "Next-year consensus EPS is rounded and its detailed non-GAAP adjustments are unavailable; no current NTM consensus was verified.",
+    "NAND/DRAM cost allocation, annual capex, FX conversion and long-run margins remain material assumptions."
+  ],
+  "comparisonNote": "The annual P/E shown here has an explicit CY2027 denominator and ADS conversion. It is not the unreconciled 4.17× provider headline. MU FY2027 ends several months earlier; comparing the ratios does not remove the different earnings periods or business risks.",
+  "stub": {
+    "capexYear": 48,
+    "daHalf": 9
+  },
+  "anchor": {
+    "revenues": [
+      247.31706052412878,
+      95.31056486293919,
+      1.6323746129319796
+    ],
+    "cashCosts": [
+      27.810586138078104,
+      14.290119025741038,
+      0.6118636361808619
+    ],
+    "daWeights": [
+      0.718401965154618,
+      0.27685634364416195,
+      0.004741691201219949
+    ],
+    "manufacturingDaShare": 0.8,
+    "opex": 22
+  },
+  "scenarios": {
+    "downside": {
+      "name": "HBM ramp / commodity-price stress",
+      "marginOffset": -20,
+      "description": "CY2027 misses revenue consensus; weaker blended DRAM and NAND prices meet large committed investment.",
+      "rows": [
+        {
+          "year": 2027,
+          "volume": [
+            15,
+            18,
+            0
+          ],
+          "asp": [
+            -1,
+            -9,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 90,
+          "da": 22,
+          "opex": 20.6,
+          "revenueTarget": 451.72400000000005
+        },
+        {
+          "year": 2028,
+          "volume": [
+            13,
+            18,
+            0
+          ],
+          "asp": [
+            -25,
+            -25,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 110,
+          "da": 30,
+          "opex": 22.248000000000005,
+          "revenueTarget": null
+        },
+        {
+          "year": 2029,
+          "volume": [
+            11,
+            15,
+            0
+          ],
+          "asp": [
+            -25,
+            -25,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 120,
+          "da": 39,
+          "opex": 24.027840000000005,
+          "revenueTarget": null
+        },
+        {
+          "year": 2030,
+          "volume": [
+            8,
+            13,
+            0
+          ],
+          "asp": [
+            -14,
+            -19,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 100.0,
+          "da": 43.2,
+          "opex": 25.950067200000007,
+          "revenueTarget": null
+        },
+        {
+          "year": 2031,
+          "volume": [
+            5,
+            8,
+            0
+          ],
+          "asp": [
+            -12,
+            -14,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 96.0,
+          "da": 50.4,
+          "opex": 28.026072576000008,
+          "revenueTarget": null
+        },
+        {
+          "year": 2032,
+          "volume": [
+            3,
+            5,
+            0
+          ],
+          "asp": [
+            -9,
+            -11,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 92.0,
+          "da": 55.800000000000004,
+          "opex": 30.268158382080014,
+          "revenueTarget": null
+        },
+        {
+          "year": 2033,
+          "volume": [
+            3,
+            5,
+            0
+          ],
+          "asp": [
+            -9,
+            -11,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 84.0,
+          "da": 60.300000000000004,
+          "opex": 32.68961105264641,
+          "revenueTarget": null
+        },
+        {
+          "year": 2034,
+          "volume": [
+            3,
+            5,
+            0
+          ],
+          "asp": [
+            -9,
+            -11,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 76.0,
+          "da": 64.8,
+          "opex": 35.30477993685813,
+          "revenueTarget": null
+        }
+      ]
+    },
+    "central": {
+      "name": "Consensus start / disciplined expansion",
+      "marginOffset": 0,
+      "description": "CY2027 consensus revenue, then separate DRAM/NAND price normalization and continued fab/packaging investment.",
+      "rows": [
+        {
+          "year": 2027,
+          "volume": [
+            22,
+            25,
+            5
+          ],
+          "asp": [
+            3,
+            -5,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 90,
+          "da": 22,
+          "opex": 20.6,
+          "revenueTarget": 531.44
+        },
+        {
+          "year": 2028,
+          "volume": [
+            20,
+            25,
+            3
+          ],
+          "asp": [
+            -5,
+            -8,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 110,
+          "da": 30,
+          "opex": 22.248000000000005,
+          "revenueTarget": null
+        },
+        {
+          "year": 2029,
+          "volume": [
+            18,
+            22,
+            3
+          ],
+          "asp": [
+            -15,
+            -20,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 120,
+          "da": 39,
+          "opex": 24.027840000000005,
+          "revenueTarget": null
+        },
+        {
+          "year": 2030,
+          "volume": [
+            15,
+            20,
+            3
+          ],
+          "asp": [
+            -10,
+            -15,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 125,
+          "da": 48,
+          "opex": 25.950067200000007,
+          "revenueTarget": null
+        },
+        {
+          "year": 2031,
+          "volume": [
+            12,
+            15,
+            3
+          ],
+          "asp": [
+            -8,
+            -10,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 120,
+          "da": 56,
+          "opex": 28.026072576000008,
+          "revenueTarget": null
+        },
+        {
+          "year": 2032,
+          "volume": [
+            10,
+            12,
+            3
+          ],
+          "asp": [
+            -5,
+            -7,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 115,
+          "da": 62,
+          "opex": 30.268158382080014,
+          "revenueTarget": null
+        },
+        {
+          "year": 2033,
+          "volume": [
+            10,
+            12,
+            3
+          ],
+          "asp": [
+            -5,
+            -7,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 105,
+          "da": 67,
+          "opex": 32.68961105264641,
+          "revenueTarget": null
+        },
+        {
+          "year": 2034,
+          "volume": [
+            10,
+            12,
+            3
+          ],
+          "asp": [
+            -5,
+            -7,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 95,
+          "da": 72,
+          "opex": 35.30477993685813,
+          "revenueTarget": null
+        }
+      ]
+    },
+    "upside": {
+      "name": "HBM and server-memory expansion",
+      "marginOffset": 15,
+      "description": "Stronger supply execution and pricing; additional investment supports the higher shipment scenario.",
+      "rows": [
+        {
+          "year": 2027,
+          "volume": [
+            27,
+            30,
+            5
+          ],
+          "asp": [
+            3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 112.5,
+          "da": 25.299999999999997,
+          "opex": 20.6,
+          "revenueTarget": 584.5840000000001
+        },
+        {
+          "year": 2028,
+          "volume": [
+            25,
+            30,
+            3
+          ],
+          "asp": [
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 137.5,
+          "da": 34.5,
+          "opex": 22.248000000000005,
+          "revenueTarget": null
+        },
+        {
+          "year": 2029,
+          "volume": [
+            23,
+            27,
+            3
+          ],
+          "asp": [
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 150.0,
+          "da": 44.849999999999994,
+          "opex": 24.027840000000005,
+          "revenueTarget": null
+        },
+        {
+          "year": 2030,
+          "volume": [
+            20,
+            25,
+            3
+          ],
+          "asp": [
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 156.25,
+          "da": 55.199999999999996,
+          "opex": 25.950067200000007,
+          "revenueTarget": null
+        },
+        {
+          "year": 2031,
+          "volume": [
+            17,
+            20,
+            3
+          ],
+          "asp": [
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 150.0,
+          "da": 64.39999999999999,
+          "opex": 28.026072576000008,
+          "revenueTarget": null
+        },
+        {
+          "year": 2032,
+          "volume": [
+            15,
+            17,
+            3
+          ],
+          "asp": [
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 143.75,
+          "da": 71.3,
+          "opex": 30.268158382080014,
+          "revenueTarget": null
+        },
+        {
+          "year": 2033,
+          "volume": [
+            15,
+            17,
+            3
+          ],
+          "asp": [
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 131.25,
+          "da": 77.05,
+          "opex": 32.68961105264641,
+          "revenueTarget": null
+        },
+        {
+          "year": 2034,
+          "volume": [
+            15,
+            17,
+            3
+          ],
+          "asp": [
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -6,
+            -8,
+            -2
+          ],
+          "capex": 118.75,
+          "da": 82.8,
+          "opex": 35.30477993685813,
+          "revenueTarget": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+__pycache__/
+.env
+.env.*
+*.log
+*.png
+*.zip
+*_settings.json
+!v2.0/default_settings.json
+_site/
+dist/
+publication_verification.json
+**/verification/audit_cases.json
+**/verification/calculation_log.json

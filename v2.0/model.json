@@ -1,0 +1,964 @@
+{
+  "schema": 2,
+  "company": "MU",
+  "name": "Micron",
+  "version": "2.0",
+  "asOf": "2026-10-09",
+  "checkedOn": "2026-10-10",
+  "balanceDate": "2026-09-03",
+  "unit": "USD billions",
+  "unitShort": "$B",
+  "epsScale": 1000,
+  "ordinaryPerQuote": 1,
+  "price": 1029,
+  "epsMinority": 0,
+  "headline": "Cloud memory, data-center storage, mobile and automotive",
+  "overview": "Micron is modeled through its reported business units. HBM is included in Cloud Memory; data-center NAND and SSDs are included in Core Data Center. Separate shipment, price/mix and cash-cost changes drive each unit. Capital spending and depreciation reflect Micron’s own manufacturing expansion.",
+  "assumptions": {
+    "discount": 12,
+    "terminalGrowth": 2,
+    "terminalMargin": 50,
+    "terminalRoi": 25,
+    "tax": 15.5,
+    "netInterest": 2,
+    "sbc": 1.6,
+    "dso": 55,
+    "dio": 110,
+    "dpo": 45,
+    "accruedPct": 4,
+    "operatingReserve": 10,
+    "interimCredit": 100,
+    "investmentHaircut": 20,
+    "ipoFeePct": 1,
+    "buybackFraction": 100,
+    "buybackPrice": 1662000,
+    "fx": 1,
+    "capexMultiplier": 1,
+    "sharesMn": 1150,
+    "gmShock": 0
+  },
+  "facts": {
+    "cash": 73.453,
+    "debt": 5.179,
+    "taxLiability": 15.446,
+    "customerDeposits": 12.895,
+    "openingNwc": 33.822,
+    "reportedRevenue": 133.188,
+    "reportedEbit": 99.34,
+    "reportedDA": 9.503,
+    "reportedSbc": 1.333,
+    "reportedCfo": 89.675,
+    "reportedCashCapex": 27.367,
+    "reportedFCF": 62.308,
+    "q1Revenue": 61.5,
+    "q1EPS": 38.15,
+    "q1GM": 86.25,
+    "q1Opex": 2.06,
+    "fy27Opex": 9.341,
+    "capexH1": 25,
+    "capexQ1": 11.5,
+    "tradePayables": 3.518,
+    "capexPayables": 8.618,
+    "currentTaxes": 5.626,
+    "noncurrentTaxes": 9.82,
+    "receivables": 36.197,
+    "inventory": 10.372,
+    "operatingAccruals": 9.229
+  },
+  "consensus": [
+    {
+      "year": 2027,
+      "period": "FY2027 (Aug/Sep 2027)",
+      "revenue": 275.21,
+      "eps": 176.15,
+      "operatingIncome": 231.66,
+      "netIncome": 196.36,
+      "fcf": 144.42,
+      "gm": 86.98,
+      "epsBasis": "Provider-adjusted EPS; fiscal-year estimate",
+      "updated": "2026-10-08"
+    },
+    {
+      "year": 2028,
+      "period": "FY2028 (Aug 2028)",
+      "revenue": 320.57,
+      "eps": 206.33,
+      "epsBasis": "Provider-adjusted EPS; fiscal-year estimate",
+      "updated": "2026-10-08"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloud Memory",
+      "short": "CMBU",
+      "revenue": 16.283,
+      "gm": 83,
+      "status": "reported Q4 FY2026; rounded margin",
+      "driver": "HBM and hyperscale DRAM: qualified shipments, richer HBM mix and contracted pricing."
+    },
+    {
+      "name": "Core Data Center",
+      "short": "CDBU",
+      "revenue": 18.002,
+      "gm": 90,
+      "status": "reported Q4 FY2026; rounded margin",
+      "driver": "Enterprise/cloud SSDs, NAND components and OEM/NeoCloud memory: storage content, bit supply and price/mix."
+    },
+    {
+      "name": "Mobile & Client",
+      "short": "MCBU",
+      "revenue": 13.114,
+      "gm": 90,
+      "status": "reported Q4 FY2026; rounded margin",
+      "driver": "Premium PC/mobile content, device shipments and DRAM/NAND prices."
+    },
+    {
+      "name": "Automotive & Embedded",
+      "short": "AEBU",
+      "revenue": 6.824,
+      "gm": 84,
+      "status": "reported Q4 FY2026; rounded margin",
+      "driver": "Automotive and industrial content, qualification cycles and pricing."
+    },
+    {
+      "name": "Other / reconciliation",
+      "short": "Other",
+      "revenue": 0.006,
+      "gm": 20,
+      "status": "revenue residual; 20% gross margin assumption",
+      "driver": "Small residual needed to reconcile consolidated revenue; held flat."
+    }
+  ],
+  "sources": [
+    {
+      "id": "release",
+      "title": "Micron Q4/FY2026 results",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "kind": "Company results",
+      "date": "2026-09-30",
+      "locator": "Quarterly business-unit table; financial statements; non-GAAP reconciliations"
+    },
+    {
+      "id": "remarks",
+      "title": "Micron prepared remarks",
+      "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+      "kind": "Management outlook",
+      "date": "2026-09-30",
+      "locator": "PDF pp. 2–5, 7–10"
+    },
+    {
+      "id": "annual",
+      "title": "Micron FY2026 10-K",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+      "kind": "Company filing",
+      "date": "2026-09-30",
+      "locator": "Notes 8, 16 and 20; PDF / printed pp. 77, 90, 92–93"
+    },
+    {
+      "id": "consensus",
+      "title": "MU annual consensus and close",
+      "url": "https://stockanalysis.com/stocks/mu/forecast/",
+      "kind": "Third-party estimates",
+      "date": "2026-10-08",
+      "locator": "Public FY2027 table; FY2028 summary; Oct 9 close"
+    }
+  ],
+  "evidence": [
+    {
+      "label": "FY2026 revenue / adjusted FCF",
+      "value": "$133.188B / $62.308B",
+      "status": "Reported",
+      "source": "release",
+      "meaning": "FCF is company-adjusted OCF less net cash capex."
+    },
+    {
+      "label": "Q1 FY2027 outlook",
+      "value": "$61.5B revenue; $38.15 adjusted EPS",
+      "status": "Company outlook",
+      "source": "remarks",
+      "meaning": "Ranges: ±$1.5B revenue and ±$1 EPS. Not annual guidance."
+    },
+    {
+      "label": "FY2027 capital spending",
+      "value": "$25B first half; higher second half",
+      "status": "Company outlook",
+      "source": "remarks",
+      "meaning": "Exact annual total is not provided. The model’s $55B central total is an assumption."
+    },
+    {
+      "label": "HBM pricing and mix",
+      "value": "2027 agreements for most HBM supply",
+      "status": "Company outlook",
+      "source": "remarks",
+      "meaning": "Management expects significant year-on-year HBM price increases. HBM gross margin remains below conventional DRAM in the commentary; the model does not impose a generic HBM margin premium."
+    },
+    {
+      "label": "Cash / debt",
+      "value": "$73.453B / $5.179B",
+      "status": "Reported",
+      "source": "annual",
+      "meaning": "Cash excludes restricted cash; customer deposits and accrued taxes are reserved separately."
+    },
+    {
+      "label": "Accounts payable detail",
+      "value": "$3.518B trade; $8.618B capital payables",
+      "status": "Reported",
+      "source": "annual",
+      "meaning": "Prior versions incorrectly treated the entire $22.605B payable/accrual line as operating working capital."
+    },
+    {
+      "label": "Previously accrued taxes",
+      "value": "$5.626B current + $9.820B noncurrent",
+      "status": "Reported",
+      "source": "annual",
+      "meaning": "Full nominal reserve is conservative; payment schedule is not modeled."
+    },
+    {
+      "label": "Capacity milestones",
+      "value": "Idaho/Tongluo 2027; later fabs 2028–30",
+      "status": "Company outlook",
+      "source": "remarks",
+      "meaning": "Timing informs scenarios, but exact company wafer capacity, yield and output are not quantified here."
+    }
+  ],
+  "assumptionsNotes": [
+    "The central revenue anchors are published FY2027 and FY2028 consensus estimates. The price/mix change required to reach them is solved after applying editable shipment assumptions. This is a consensus-anchored scenario, not an independently predicted revenue forecast.",
+    "Business-unit shipment indices combine different products and are not physical gigabits. HBM remains inside CMBU; separate HBM revenue, cost, yield and capacity are not asserted. The published margins are rounded business-unit figures, before mainly unallocated SBC.",
+    "Starting revenue and manufacturing cost use four times Q4 unit results. FY2026 D&A of $9.503B is a proxy for embedded annual D&A in that run rate; 80% is allocated to manufacturing and 20% to operating expense. The actual manufacturing split is undisclosed. Forecast D&A is replaced explicitly each year.",
+    "FY2027 operating expense is $6.841B reported non-GAAP FY2026 expense plus management’s approximate $2.5B increase. Future cash operating expense, capex, D&A and product cost changes are assumptions. $55B net capex is $25B first half plus an assumed $30B second half, including payment of existing capital payables; those payables are not deducted again.",
+    "The EPS bridge assumes $2B annual net interest/other recurring income and 15.5% tax. The latter is FY2027 company guidance; extending it beyond that year is an assumption. $1.6B SBC in FY2027, growing 6%, is charged for economic valuation with no addback. Published adjusted EPS excludes a different set of costs, so the economic EPS measure is not GAAP EPS.",
+    "Operating working capital uses receivable days, inventory days, trade-payable days and separate operating accruals. Opening $33.822B equals receivables plus inventory less trade payables, salaries/benefits, other accrued expenses and other current liabilities. Tax and capital payables are excluded. Forecast days use annual revenue/cost, a simplification in a fast-growing business.",
+    "Full customer deposit liability and current/noncurrent prior taxes are reserved once in the equity bridge. New customer deposits are excluded from FCFF. Future modeled tax is applied to future earnings, not used to settle those reserved historical obligations.",
+    "Reported September balances are brought to the October quote date using a uniform interim owner-cash estimate. This is not a verified cash balance. The interim-credit control can remove the estimate; omitted intervening financing/distributions remain a limitation.",
+    "The long-run margin, discount rate, perpetual growth and return on new capital are assumptions. After eight explicit years, revenue growth, operating margin and reinvestment fade for four years. No peak margin is carried into perpetuity without an explicit user assumption.",
+    "The start of the four-year fade uses the last explicit revenue growth rate, limited to the interval from perpetual growth to 12%. A recovery to at least perpetual growth is therefore assumed even after a contracting final explicit year. Net reinvestment fades from the last explicit capital-spending/depreciation/working-capital requirement to NOPAT × growth / terminal return on capital.",
+    "Future capital-spending allowances cover replacement and expansion, including an allowance for cash-equivalent leased assets. The exact future split among wafer fabs, packaging, equipment, incentives and lease financing is not verified. Annual schedules are stress assumptions, not asset-level engineering estimates."
+  ],
+  "limitations": [
+    "Company HBM revenue/yield/capacity economics are not separately available in the reviewed disclosures.",
+    "Consensus EPS and the provider’s other financial estimates do not share a fully reconciled basis or share denominator.",
+    "No verified full-year FY2027 capex total or long-run operating margin exists in these sources.",
+    "Quarterly seasonality, tax-payment timing, future dilution/buybacks and grant timing are simplified."
+  ],
+  "comparisonNote": "This model does not establish a ranking against SNDK. Its first versions mixed fiscal periods, business drivers and terminal assumptions. SNDK v1.5 still requires a comparable re-underwriting before cross-company DCF rankings are meaningful.",
+  "anchor": {
+    "revenues": [
+      65.132,
+      72.008,
+      52.456,
+      27.296,
+      0.024
+    ],
+    "daWeights": [
+      0.35094180785015255,
+      0.2353993475744502,
+      0.2620225192044618,
+      0.15058402609702198,
+      0.001052299273913501
+    ],
+    "manufacturingDaShare": 0.8,
+    "opex": 9.341,
+    "cashCosts": [
+      8.404440000000005,
+      5.411199999999998,
+      3.2535999999999983,
+      3.2225600000000005,
+      0.011200000000000002
+    ]
+  },
+  "scenarios": {
+    "downside": {
+      "name": "Earlier price correction",
+      "marginOffset": -20,
+      "description": "Revenue misses near-term consensus, then memory pricing corrects sharply. Early capital spending remains committed.",
+      "rows": [
+        {
+          "year": 2027,
+          "volume": [
+            23,
+            18,
+            3,
+            8,
+            0
+          ],
+          "asp": [
+            5,
+            0,
+            -8,
+            -5,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 55,
+          "da": 12,
+          "opex": 6.941,
+          "revenueTarget": 247.689
+        },
+        {
+          "year": 2028,
+          "volume": [
+            21,
+            18,
+            5,
+            8,
+            0
+          ],
+          "asp": [
+            -25,
+            -25,
+            -25,
+            -25,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 65,
+          "da": 17,
+          "opex": 7.4962800000000005,
+          "revenueTarget": null
+        },
+        {
+          "year": 2029,
+          "volume": [
+            15,
+            15,
+            3,
+            5,
+            0
+          ],
+          "asp": [
+            -25,
+            -25,
+            -25,
+            -25,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 70,
+          "da": 23,
+          "opex": 8.0959824,
+          "revenueTarget": null
+        },
+        {
+          "year": 2030,
+          "volume": [
+            11,
+            11,
+            1,
+            3,
+            0
+          ],
+          "asp": [
+            -13,
+            -15,
+            -18,
+            -13,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 60.0,
+          "da": 26.1,
+          "opex": 8.743660992,
+          "revenueTarget": null
+        },
+        {
+          "year": 2031,
+          "volume": [
+            8,
+            8,
+            0,
+            2,
+            0
+          ],
+          "asp": [
+            -10,
+            -11,
+            -13,
+            -10,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 60.0,
+          "da": 30.6,
+          "opex": 9.443153871360002,
+          "revenueTarget": null
+        },
+        {
+          "year": 2032,
+          "volume": [
+            5,
+            5,
+            0,
+            0,
+            0
+          ],
+          "asp": [
+            -8,
+            -9,
+            -9,
+            -8,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 56.0,
+          "da": 34.2,
+          "opex": 10.198606181068804,
+          "revenueTarget": null
+        },
+        {
+          "year": 2033,
+          "volume": [
+            5,
+            5,
+            0,
+            0,
+            0
+          ],
+          "asp": [
+            -8,
+            -9,
+            -9,
+            -8,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 52.0,
+          "da": 36.9,
+          "opex": 11.014494675554307,
+          "revenueTarget": null
+        },
+        {
+          "year": 2034,
+          "volume": [
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "asp": [
+            -8,
+            -9,
+            -9,
+            -8,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 48.0,
+          "da": 38.7,
+          "opex": 11.895654249598653,
+          "revenueTarget": null
+        }
+      ]
+    },
+    "central": {
+      "name": "Consensus start / cycle normalization",
+      "marginOffset": 0,
+      "description": "Near-term consensus revenue, followed by explicit price erosion and moderating shipment growth.",
+      "rows": [
+        {
+          "year": 2027,
+          "volume": [
+            30,
+            25,
+            10,
+            15,
+            0
+          ],
+          "asp": [
+            8,
+            3,
+            -5,
+            -2,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 55,
+          "da": 12,
+          "opex": 6.941,
+          "revenueTarget": 275.21
+        },
+        {
+          "year": 2028,
+          "volume": [
+            28,
+            25,
+            12,
+            15,
+            0
+          ],
+          "asp": [
+            5,
+            0,
+            -4,
+            -2,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 65,
+          "da": 17,
+          "opex": 7.4962800000000005,
+          "revenueTarget": 320.57
+        },
+        {
+          "year": 2029,
+          "volume": [
+            22,
+            22,
+            10,
+            12,
+            0
+          ],
+          "asp": [
+            -12,
+            -15,
+            -18,
+            -12,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 70,
+          "da": 23,
+          "opex": 8.0959824,
+          "revenueTarget": null
+        },
+        {
+          "year": 2030,
+          "volume": [
+            18,
+            18,
+            8,
+            10,
+            0
+          ],
+          "asp": [
+            -10,
+            -12,
+            -15,
+            -10,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 75,
+          "da": 29,
+          "opex": 8.743660992,
+          "revenueTarget": null
+        },
+        {
+          "year": 2031,
+          "volume": [
+            15,
+            15,
+            7,
+            9,
+            0
+          ],
+          "asp": [
+            -7,
+            -8,
+            -10,
+            -7,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 75,
+          "da": 34,
+          "opex": 9.443153871360002,
+          "revenueTarget": null
+        },
+        {
+          "year": 2032,
+          "volume": [
+            12,
+            12,
+            5,
+            7,
+            0
+          ],
+          "asp": [
+            -5,
+            -6,
+            -6,
+            -5,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 70,
+          "da": 38,
+          "opex": 10.198606181068804,
+          "revenueTarget": null
+        },
+        {
+          "year": 2033,
+          "volume": [
+            12,
+            12,
+            5,
+            7,
+            0
+          ],
+          "asp": [
+            -5,
+            -6,
+            -6,
+            -5,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 65,
+          "da": 41,
+          "opex": 11.014494675554307,
+          "revenueTarget": null
+        },
+        {
+          "year": 2034,
+          "volume": [
+            10,
+            10,
+            5,
+            6,
+            0
+          ],
+          "asp": [
+            -5,
+            -6,
+            -6,
+            -5,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 60,
+          "da": 43,
+          "opex": 11.895654249598653,
+          "revenueTarget": null
+        }
+      ]
+    },
+    "upside": {
+      "name": "Longer supply constraint",
+      "marginOffset": 15,
+      "description": "Stronger shipments/pricing persist; higher capex supports the larger output scenario.",
+      "rows": [
+        {
+          "year": 2027,
+          "volume": [
+            35,
+            30,
+            15,
+            20,
+            0
+          ],
+          "asp": [
+            8,
+            3,
+            -3,
+            -2,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 66.0,
+          "da": 13.440000000000001,
+          "opex": 6.941,
+          "revenueTarget": 297.2268
+        },
+        {
+          "year": 2028,
+          "volume": [
+            33,
+            30,
+            17,
+            20,
+            0
+          ],
+          "asp": [
+            5,
+            0,
+            -3,
+            -2,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 78.0,
+          "da": 19.040000000000003,
+          "opex": 7.4962800000000005,
+          "revenueTarget": 359.0384
+        },
+        {
+          "year": 2029,
+          "volume": [
+            27,
+            27,
+            15,
+            17,
+            0
+          ],
+          "asp": [
+            -3,
+            -3,
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 84.0,
+          "da": 25.76,
+          "opex": 8.0959824,
+          "revenueTarget": null
+        },
+        {
+          "year": 2030,
+          "volume": [
+            23,
+            23,
+            13,
+            15,
+            0
+          ],
+          "asp": [
+            -3,
+            -3,
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 90.0,
+          "da": 32.480000000000004,
+          "opex": 8.743660992,
+          "revenueTarget": null
+        },
+        {
+          "year": 2031,
+          "volume": [
+            20,
+            20,
+            12,
+            14,
+            0
+          ],
+          "asp": [
+            -3,
+            -3,
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 90.0,
+          "da": 38.080000000000005,
+          "opex": 9.443153871360002,
+          "revenueTarget": null
+        },
+        {
+          "year": 2032,
+          "volume": [
+            17,
+            17,
+            10,
+            12,
+            0
+          ],
+          "asp": [
+            -3,
+            -3,
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 84.0,
+          "da": 42.56,
+          "opex": 10.198606181068804,
+          "revenueTarget": null
+        },
+        {
+          "year": 2033,
+          "volume": [
+            17,
+            17,
+            10,
+            12,
+            0
+          ],
+          "asp": [
+            -3,
+            -3,
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 78.0,
+          "da": 45.92,
+          "opex": 11.014494675554307,
+          "revenueTarget": null
+        },
+        {
+          "year": 2034,
+          "volume": [
+            15,
+            15,
+            10,
+            11,
+            0
+          ],
+          "asp": [
+            -3,
+            -3,
+            -3,
+            -3,
+            0
+          ],
+          "cost": [
+            -5,
+            -7,
+            -5,
+            -4,
+            0
+          ],
+          "capex": 72.0,
+          "da": 48.160000000000004,
+          "opex": 11.895654249598653,
+          "revenueTarget": null
+        }
+      ]
+    }
+  }
+}

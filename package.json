@@ -1,0 +1,13 @@
+{
+  "name": "mu-value-lab",
+  "version": "2.0.0",
+  "private": true,
+  "description": "MU company-specific offline valuation model",
+  "scripts": {
+    "test": "node v2.0/verify.js",
+    "test:browser": "node v2.0/test_browser.js"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

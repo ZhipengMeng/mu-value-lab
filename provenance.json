@@ -1,0 +1,15 @@
+{
+  "company": "MU",
+  "version": "2.0",
+  "snapshotDate": "2026-10-09",
+  "publicationDate": "2026-10-11",
+  "modelSha256": "d0834eed587a2140d31f6ad9c377fd0347a9529c8f9c3bd977b8f1ac11d05f92",
+  "engineSha256": "acfd051ced96b7065595f5e6db0ce98da0a678791dfd6005af84c4815b10ffe9",
+  "scenarioValues": {
+    "downside": 449.84535006248683,
+    "central": 1418.6303507976836,
+    "upside": 3007.3965532089956
+  },
+  "comparisonURL": "https://zhipengmeng.github.io/mu-value-lab/comparison/",
+  "method": "Public navigation and portable verification added; original financial inputs and engine preserved."
+}

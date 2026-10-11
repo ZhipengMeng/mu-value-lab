@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "checks": 724,
+  "gridCombinations": 240,
+  "scope": "Independent Python calculation of all company default scenarios, calendar EPS/P-E and common sensitivity grid. No probability interpretation."
+}

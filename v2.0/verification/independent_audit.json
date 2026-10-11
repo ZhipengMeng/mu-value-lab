@@ -1,0 +1,5 @@
+{
+  "status": "pass",
+  "checks": 795,
+  "scope": "Independent Python rebuild from input assumptions. Software arithmetic, not forecast validation."
+}
