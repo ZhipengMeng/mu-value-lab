@@ -33,6 +33,6 @@
     "mobile no script errors",
     "mobile offline without external requests"
   ],
-  "htmlSha256": "1ca33ca7478d308b7758b3d636495430462d569351c853d293d8f456fd3d9c20",
+  "htmlSha256": "4bddce0e3de76d372587c5727e7f9ee06e36f6f1a34ff1722cf3925cf2e1a427",
   "scope": "Offline desktop/mobile behavior and explicit public links; live link checks follow deployment."
 }

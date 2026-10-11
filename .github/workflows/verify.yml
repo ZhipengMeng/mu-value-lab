@@ -1,6 +1,8 @@
 name: Verify and publish valuation model
 on:
   push:
+    paths-ignore:
+      - market/quotes.json
   pull_request:
   workflow_dispatch:
 permissions:

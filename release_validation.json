@@ -2,7 +2,7 @@
   "company": "MU",
   "version": "2.0",
   "status": "pass",
-  "appSha256": "8c135253934c5630b8949e55d8b15913100c4c0ccffaf049a4d95588b429568c",
+  "appSha256": "6403a91c17c6bc37ce2a3187dbc6e1e81132050138210f3d725775133c401e6a",
   "browserHtmlMatches": true,
   "browserChecks": 52,
   "engine": {
@@ -148,7 +148,7 @@
     "scope": "Independent Python rebuild from input assumptions. Software arithmetic, not forecast validation."
   },
   "comparison": {
-    "appSha256": "1ca33ca7478d308b7758b3d636495430462d569351c853d293d8f456fd3d9c20",
+    "appSha256": "4bddce0e3de76d372587c5727e7f9ee06e36f6f1a34ff1722cf3925cf2e1a427",
     "browserHtmlMatches": true,
     "browserChecks": 30,
     "independent": {
@@ -157,5 +157,9 @@
       "gridCombinations": 240,
       "scope": "Independent Python calculation of all company default scenarios, calendar EPS/P-E and common sensitivity grid. No probability interpretation."
     }
+  },
+  "automaticQuotes": {
+    "browserHtmlMatches": true,
+    "checks": 100
   }
 }

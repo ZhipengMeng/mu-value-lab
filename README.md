@@ -4,6 +4,10 @@ Micron's standalone, company-specific valuation model. **Financial snapshot: Oct
 
 **[Open the MU model](https://zhipengmeng.github.io/mu-value-lab/)** · [Download the standalone model](https://zhipengmeng.github.io/mu-value-lab/mu_valuation_v2_0.html) · [Compare SNDK, MU and SKHY](https://zhipengmeng.github.io/mu-value-lab/comparison/)
 
+## Automatic prices
+
+All three models and the comparison now use one dated regular-session USD quote feed. Websites check it every five minutes; the central updater runs about every 15 minutes on U.S. market weekdays. P/E, upside and rankings update while company assumptions, EPS estimates, FX and the October 9 valuation date remain unchanged. Prices are not guaranteed real-time. Turn off **Update automatically** for the original snapshot. Failed updates retain visibly dated prices. See [quote source, schedule, fallback and checks](market/README.md).
+
 ## Separate models, linked comparison
 
 - [SNDK model](https://zhipengmeng.github.io/sndk-value-lab/) · [SNDK source](https://github.com/ZhipengMeng/sndk-value-lab)
@@ -32,7 +36,7 @@ Reference close: $1,029.00. The central case uses 12% required return, 2% perpet
 
 ## Use and reproducibility
 
-Select a scenario, edit company drivers or valuation assumptions, and save or load a company-specific JSON session. Imports reject other companies and altered reported facts. Invalid inputs clear results. Reset restores the original assumptions. Downloads work offline; there are no live-price requests, analytics or accounts.
+Select a scenario, edit company drivers or valuation assumptions, and save or load a company-specific JSON session. Imports reject other companies and altered reported facts. Invalid inputs clear results. Reset restores the original assumptions. Downloads work offline; online quotes refresh automatically; there are no analytics or accounts.
 
 ```sh
 npm ci --ignore-scripts --no-audit --no-fund
@@ -45,7 +49,7 @@ Node.js 18+ and Python 3.9+ are required. Playwright is pinned; no new runtime d
 
 `provenance.json` records original model/engine hashes and baseline values. `MANIFEST.json` records the public-file checksums. `release_files.py` is the explicit publication allowlist; `dist/` contains a local verified ZIP. Original local versions and raw source documents remain unchanged. Full source documents, personal information, temporary outputs, screenshots and browser exports are excluded from publication.
 
-GitHub Actions tests each push and pull request with read-only source permissions. Only successful `main` builds in this repository publish through a separate Pages job. The site contains only the tested standalone HTML files. Software checks establish implementation consistency, not financial forecast accuracy; Firefox, Safari and physical mobile devices are not covered.
+GitHub Actions tests each push and pull request with read-only source permissions. Only successful `main` builds in this repository publish through a separate Pages job. The site contains the tested standalone HTML files, which fetch the separate shared public quote batch. Software checks establish implementation consistency, not financial forecast accuracy; Firefox, Safari and physical mobile devices are not covered.
 
 ## Rights
 

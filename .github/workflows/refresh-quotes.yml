@@ -1,0 +1,32 @@
+name: Refresh market prices
+on:
+  schedule:
+    - cron: '7,22,37,52 13-22 * * 1-5'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: market-price-feed
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'ZhipengMeng/mu-value-lab'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Validate quote parser
+        run: python3 -m unittest discover -s market -p 'test_*.py'
+      - name: Refresh complete quote batch
+        run: python3 market/fetch_quotes.py
+      - name: Publish price data only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- market/quotes.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh regular-session market prices"
+          git push origin HEAD:main

@@ -9,7 +9,10 @@ assert sha(ROOT/'v2.0/model.json')==provenance['modelSha256'],'Input snapshot di
 assert sha(ROOT/'v2.0/source/engine.js')==provenance['engineSha256'],'Engine differs from version provenance'
 commands=[[sys.executable,'v2.0/build.py'],['node','--check','v2.0/source/engine.js'],['node','--check','v2.0/source/app.js'],['node','v2.0/verify.js'],['node','v2.0/audit_cases.js'],[sys.executable,'v2.0/audit_independent.py']]
 if (ROOT/'comparison').is_dir():commands += [[sys.executable,'comparison/build.py'],[sys.executable,'comparison/verify.py']]
+commands += [['node', 'market/test_quotes.js']]
+commands += [[sys.executable, '-m', 'unittest', 'discover', '-s', 'market', '-p', 'test_*.py']]
 if args.browser:
+ commands.append(['node','market/test_browser_quotes.js'])
  commands += [['node','v2.0/test_browser.js']]
  if (ROOT/'comparison').is_dir():commands += [['node','comparison/test_browser.js']]
 commands += [[sys.executable,'v2.0/build.py','--check']]
@@ -24,6 +27,11 @@ if (ROOT/'comparison').is_dir():
  cmatch=cb.get('htmlSha256')==sha(c/'memory_valuation_comparison.html')
  if args.package:assert cmatch,'Current comparison must pass browser tests before packaging'
  report['comparison']={'appSha256':sha(c/'memory_valuation_comparison.html'),'browserHtmlMatches':cmatch,'browserChecks':cb.get('checks') if cmatch else None,'independent':json.loads((c/'verification/independent_audit.json').read_text())}
+quote_path=ROOT/'market/browser_report.json'
+quote_report=json.loads(quote_path.read_text()) if quote_path.exists() else {}
+quote_matches=quote_report.get('status')=='pass' and bool(quote_report.get('htmlSha256')) and all(sha(ROOT/name)==digest for name,digest in quote_report.get('htmlSha256',{}).items())
+if args.package:assert quote_matches,'Run automatic quote browser tests against current HTML'
+report['automaticQuotes']={'browserHtmlMatches':quote_matches,'checks':quote_report.get('checks') if quote_matches else None}
 (ROOT/'release_validation.json').write_text(json.dumps(report,indent=2)+'\n')
 if args.package:
  files=publishing_files()
