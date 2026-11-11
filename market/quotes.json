@@ -1,39 +1,39 @@
 {
   "schema": 1,
   "provider": "Yahoo Finance",
-  "generatedAt": "2026-11-11T00:51:07Z",
+  "generatedAt": "2026-11-11T20:08:10Z",
   "quotes": {
     "MU": {
       "symbol": "MU",
-      "price": 725.11,
+      "price": 816.135,
       "currency": "USD",
       "exchange": "Nasdaq",
       "security": "common stock",
       "session": "regular",
-      "asOf": "2026-11-10T21:00:01Z",
-      "retrievedAt": "2026-11-11T00:51:07Z",
+      "asOf": "2026-11-11T20:08:09Z",
+      "retrievedAt": "2026-11-11T20:08:10Z",
       "sourceUrl": "https://finance.yahoo.com/quote/MU/"
     },
     "SKHY": {
       "symbol": "SKHY",
-      "price": 129.66,
+      "price": 143.07,
       "currency": "USD",
       "exchange": "Nasdaq",
       "security": "ADS",
       "session": "regular",
-      "asOf": "2026-11-10T21:00:00Z",
-      "retrievedAt": "2026-11-11T00:51:07Z",
+      "asOf": "2026-11-11T20:08:08Z",
+      "retrievedAt": "2026-11-11T20:08:10Z",
       "sourceUrl": "https://finance.yahoo.com/quote/SKHY/"
     },
     "SNDK": {
       "symbol": "SNDK",
-      "price": 859.99,
+      "price": 992.8,
       "currency": "USD",
       "exchange": "Nasdaq",
       "security": "common stock",
       "session": "regular",
-      "asOf": "2026-11-10T21:00:01Z",
-      "retrievedAt": "2026-11-11T00:51:07Z",
+      "asOf": "2026-11-11T20:08:08Z",
+      "retrievedAt": "2026-11-11T20:08:10Z",
       "sourceUrl": "https://finance.yahoo.com/quote/SNDK/"
     }
   }
